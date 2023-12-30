@@ -1,0 +1,54 @@
+.cart {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.cart-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-details h3 {
+  margin: 0;
+}
+
+.item-details p {
+  margin: 5px 0;
+}
+
+.item-details button {
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.item-details button:hover {
+  background-color: #0056b3;
+}
+
+/* Optionally, you can add media queries for responsiveness */
+@media (max-width: 768px) {
+  .cart {
+    width: 100%;
+  }
+}
